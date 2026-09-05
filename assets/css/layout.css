@@ -79,6 +79,8 @@
 
 .lang-switcher {
     order: 2;
+    display: flex;
+    gap: var(--space-xs);
 }
 
 .lang-switcher__link {
@@ -92,7 +94,8 @@
 }
 
     .lang-switcher__link:hover,
-    .lang-switcher__link:focus-visible {
+    .lang-switcher__link:focus-visible,
+    .lang-switcher__link.is-active {
         color: var(--color-accent);
         border-color: var(--color-accent);
     }
