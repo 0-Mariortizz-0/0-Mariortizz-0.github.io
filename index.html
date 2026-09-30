@@ -149,7 +149,7 @@
                     </article>
                     <article class="project-card">
                         <h3 class="project-card__title">Avexo Code</h3>
-                        <p class="project-card__description">An agency specializing in the development of comprehensive web services, including high-performance websites, automated chat bots, and custom business solutions.</p>
+                        <p class="project-card__description">An agency specializing in the development of comprehensive web services, including high-performance websites, automated chatbots, and custom business solutions.</p>
                         <ul class="project-card__tags">
                             <li class="project-card__tag">Python</li>
                             <li class="project-card__tag">HTML/CSS</li>
@@ -180,8 +180,16 @@
         <section id="certificates" class="section section--certificates">
             <div class="section__container">
                 <h2 class="section-title">Certificates & Degrees</h2>
+                <ul class="filter-nav">
+                    <li><button class="filter-btn is-active" data-filter="all">All</button></li>
+                    <li><button class="filter-btn" data-filter="degrees">Degrees</button></li>
+                    <li><button class="filter-btn" data-filter="architecture">Software Design & Architecture</button></li>
+                    <li><button class="filter-btn" data-filter="cybersecurity">Cybersecurity</button></li>
+                    <li><button class="filter-btn" data-filter="databases">DataBases</button></li>
+                </ul>
+
                 <div class="edu-grid">
-                    <article class="edu-item">
+                    <article class="edu-item" data-category="degrees">
                         <div class="edu-item__meta">
                             <span class="edu-item__type">Degree</span>
                             <time class="edu-item__date">2024 - 2028</time>
@@ -192,8 +200,8 @@
                             <p class="edu-item__issuer">Zhytomyr Cooperative Vocational College of Business and Law</p>
                         </div>
                     </article>
-
-                    <article class="edu-item">
+                    
+                    <article class="edu-item" data-category="architecture">
                         <div class="edu-item__meta">
                             <span class="edu-item__type">Certificate</span>
                             <time class="edu-item__date">2026</time>
@@ -206,7 +214,7 @@
                         </div>
                     </article>
 
-                    <article class="edu-item">
+                    <article class="edu-item" data-category="business">
                         <div class="edu-item__meta">
                             <span class="edu-item__type">Certificate</span>
                             <time class="edu-item__date">2026</time>
@@ -217,8 +225,8 @@
                             <a href="https://certs.prometheus.org.ua/cert/a83e33aa41ab43c996cd6b8449447544" target="_blank" rel="noopener noreferrer" class="edu-item__link">Verify</a>
                         </div>
                     </article>
-
-                    <article class="edu-item">
+                    
+                    <article class="edu-item" data-category="databases">
                         <div class="edu-item__meta">
                             <span class="edu-item__type">Certificate</span>
                             <time class="edu-item__date">2026</time>
@@ -229,8 +237,8 @@
                             <a href="https://certs.prometheus.org.ua/cert/cc854e6fa4d648018ada371a29d35f56" target="_blank" rel="noopener noreferrer" class="edu-item__link">Verify</a>
                         </div>
                     </article>
-
-                    <article class="edu-item">
+                    
+                    <article class="edu-item" data-category="cybersecurity">
                         <div class="edu-item__meta">
                             <span class="edu-item__type">Certificate</span>
                             <time class="edu-item__date">2026</time>

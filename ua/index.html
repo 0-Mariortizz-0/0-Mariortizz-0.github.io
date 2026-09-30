@@ -81,7 +81,7 @@
                         </header>
                         <ul class="timeline__list">
                             <li class="timeline__list-item">У партнерстві заснував агенцію, спільно формуючи стратегію розвитку та очоливши технічний напрямок компанії.</li>
-                            <li class="timeline__list-item">Відповідав за технічну реалізацію спільних проєктів: проєктував складну бізнес-логіку та створював масштабовані веб-рішення.</li>
+                            <li class="timeline__list-item">Відповідав за технічну реалізацію спільних проєктів: проєктував складну бізнес-логіку та створював масштабовані вебрішення.</li>
                             <li class="timeline__list-item">Розробив архітектуру високопродуктивних чат-ботів, забезпечивши надійний бекенд для автоматизованої взаємодії з клієнтами.</li>
                         </ul>
                     </article>
@@ -149,7 +149,7 @@
                     </article>
                     <article class="project-card">
                         <h3 class="project-card__title">Avexo Code</h3>
-                        <p class="project-card__description">Агенція, що спеціалізується на розробці комплексних веб-сервісів, включаючи високопродуктивні вебсайти, автоматизовані чат-боти та кастомні бізнес-рішення.</p>
+                        <p class="project-card__description">Агенція, що спеціалізується на розробці комплексних вебсервісів, включаючи високопродуктивні вебсайти, автоматизовані чат-боти та кастомні бізнес-рішення.</p>
                         <ul class="project-card__tags">
                             <li class="project-card__tag">Python</li>
                             <li class="project-card__tag">HTML/CSS</li>
@@ -180,8 +180,17 @@
         <section id="certificates" class="section section--certificates">
             <div class="section__container">
                 <h2 class="section-title">Освіта та Сертифікати</h2>
+                <ul class="filter-nav">
+                    <li><button class="filter-btn is-active" data-filter="all">All</button></li>
+                    <li><button class="filter-btn" data-filter="degrees">Degrees</button></li>
+                    <li><button class="filter-btn" data-filter="architecture">Software Design & Architecture</button></li>
+                    <li><button class="filter-btn" data-filter="databases">DataBases</button></li>
+                    <li><button class="filter-btn" data-filter="cybersecurity">Cybersecurity</button></li>
+                    <li><button class="filter-btn" data-filter="business">Business</button></li>
+                </ul>
+
                 <div class="edu-grid">
-                    <article class="edu-item">
+                    <article class="edu-item" data-category="degrees">
                         <div class="edu-item__meta">
                             <span class="edu-item__type">Освіта</span>
                             <time class="edu-item__date">2024 - 2028</time>
@@ -192,8 +201,8 @@
                             <p class="edu-item__issuer">Житомирський кооперативний фаховий коледж бізнесу і права</p>
                         </div>
                     </article>
-
-                    <article class="edu-item">
+                    
+                    <article class="edu-item" data-category="architecture">
                         <div class="edu-item__meta">
                             <span class="edu-item__type">Сертифікат</span>
                             <time class="edu-item__date">2026</time>
@@ -205,8 +214,8 @@
                             <a href="https://coursera.org/share/411d6013710b7db567fab989b98cc44f" target="_blank" rel="noopener noreferrer" class="edu-item__link">Перевірити</a>
                         </div>
                     </article>
-
-                    <article class="edu-item">
+                    
+                    <article class="edu-item" data-category="business">
                         <div class="edu-item__meta">
                             <span class="edu-item__type">Сертифікат</span>
                             <time class="edu-item__date">2026</time>
@@ -217,8 +226,8 @@
                             <a href="https://certs.prometheus.org.ua/cert/a83e33aa41ab43c996cd6b8449447544" target="_blank" rel="noopener noreferrer" class="edu-item__link">Перевірити</a>
                         </div>
                     </article>
-
-                    <article class="edu-item">
+                    
+                    <article class="edu-item" data-category="databases">
                         <div class="edu-item__meta">
                             <span class="edu-item__type">Сертифікат</span>
                             <time class="edu-item__date">2026</time>
@@ -229,8 +238,8 @@
                             <a href="https://certs.prometheus.org.ua/cert/cc854e6fa4d648018ada371a29d35f56" target="_blank" rel="noopener noreferrer" class="edu-item__link">Перевірити</a>
                         </div>
                     </article>
-
-                    <article class="edu-item">
+                    
+                    <article class="edu-item" data-category="cybersecurity">
                         <div class="edu-item__meta">
                             <span class="edu-item__type">Сертифікат</span>
                             <time class="edu-item__date">2026</time>
